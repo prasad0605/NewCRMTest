@@ -44,7 +44,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setUp() {
 		try {
-			ExtentHtmlReporter htmlreporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReport\\CRMReport_"+CommonUtilities.getTimestamp()+".html");
+			ExtentHtmlReporter htmlreporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"\\ExtentReport\\CRMReport.html");
 			 htmlreporter.config().setDocumentTitle("Extent Automation");
 			  htmlreporter.config().setReportName("ExtentReport demo");
 			  reports=new ExtentReports();

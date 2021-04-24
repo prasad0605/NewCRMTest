@@ -9,7 +9,7 @@ import com.CRM.Utilities.WebDriverUtilities;
 
 public class CRMHomePage extends BaseTest{
 	
-	@FindBy(xpath="//*[text()='Contacts activity stream']")
+	@FindBy(xpath="//*[text()='Contacts activity stream12']")
 	WebElement elmContactsactivity;
 	
 	@FindBy(css="span.user-display")
