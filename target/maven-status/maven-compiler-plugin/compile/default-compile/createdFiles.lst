@@ -1,0 +1,6 @@
+com\CRM\Utilities\WebDriverUtilities.class
+com\CRM\Utilities\AutomationConstants.class
+com\CRM\Utilities\CommonUtilities.class
+com\CRM\Utilities\WebListeners.class
+com\CRM\BaseTest\BaseTest.class
+com\CRM\Utilities\ExcelUtilities.class

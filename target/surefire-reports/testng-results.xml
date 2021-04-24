@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRMAutomationSuite" duration-ms="22450" started-at="2021-04-24T06:10:59Z" finished-at="2021-04-24T06:11:21Z">
+    <groups>
+    </groups>
+    <test name="CRMTest" duration-ms="22450" started-at="2021-04-24T06:10:59Z" finished-at="2021-04-24T06:11:21Z">
+      <class name="com.CRM.Tests.CRMLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="setUp" is-config="true" duration-ms="154" started-at="2021-04-24T06:10:59Z" finished-at="2021-04-24T06:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMethod(java.lang.reflect.Method)[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="registerMethod" is-config="true" duration-ms="15" started-at="2021-04-24T06:10:59Z" finished-at="2021-04-24T06:10:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CRM.Tests.CRMLoginTest.verifyCRMLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMethod -->
+        <test-method status="PASS" signature="invoke()[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="invoke" is-config="true" duration-ms="5034" started-at="2021-04-24T06:10:59Z" finished-at="2021-04-24T06:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="verifyCRMLogin()[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="verifyCRMLogin" duration-ms="16345" started-at="2021-04-24T06:11:04Z" finished-at="2021-04-24T06:11:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCRMLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="closeBrowser" is-config="true" duration-ms="633" started-at="2021-04-24T06:11:20Z" finished-at="2021-04-24T06:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="tearDown" is-config="true" duration-ms="254" started-at="2021-04-24T06:11:21Z" finished-at="2021-04-24T06:11:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd]" name="getResult" is-config="true" duration-ms="0" started-at="2021-04-24T06:11:21Z" finished-at="2021-04-24T06:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCRMLogin status=SUCCESS method=CRMLoginTest.verifyCRMLogin()[pri:0, instance:com.CRM.Tests.CRMLoginTest@3dd3bcd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.CRM.Tests.CRMLoginTest -->
+    </test> <!-- CRMTest -->
+  </suite> <!-- CRMAutomationSuite -->
+</testng-results>

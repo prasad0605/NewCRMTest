@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63858" started-at="2021-04-24T06:36:19Z" finished-at="2021-04-24T06:37:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63858" started-at="2021-04-24T06:36:19Z" finished-at="2021-04-24T06:37:23Z">
+      <class name="com.CRM.Tests.CRMContactTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86]" name="setUp" is-config="true" duration-ms="382" started-at="2021-04-24T06:36:19Z" finished-at="2021-04-24T06:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registerMethod(java.lang.reflect.Method)[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86]" name="registerMethod" is-config="true" duration-ms="20" started-at="2021-04-24T06:36:20Z" finished-at="2021-04-24T06:36:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.CRM.Tests.CRMContactTest.verifyContactPage() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerMethod -->
+        <test-method status="PASS" signature="invoke()[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86]" name="invoke" is-config="true" duration-ms="6153" started-at="2021-04-24T06:36:20Z" finished-at="2021-04-24T06:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="verifyContactPage()[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86]" name="verifyContactPage" duration-ms="56722" started-at="2021-04-24T06:36:26Z" finished-at="2021-04-24T06:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86]" name="getResult" is-config="true" duration-ms="0" started-at="2021-04-24T06:37:23Z" finished-at="2021-04-24T06:37:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContactPage status=SUCCESS method=CRMContactTest.verifyContactPage()[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CRM.Tests.CRMContactTest@6500df86]" name="tearDown" is-config="true" duration-ms="540" started-at="2021-04-24T06:37:23Z" finished-at="2021-04-24T06:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CRM.Tests.CRMContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
